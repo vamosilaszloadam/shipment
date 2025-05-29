@@ -1,3 +1,13 @@
+/*
+* File: app.js
+* Author: Vámosi László Ádám
+* Copyright: 2025, Vámosi László Ádám
+* Group: Szoft I-N
+* Date: 2025-05-29
+* GitHub: https://github.com/vamosilaszloadam/
+* Licenc: MIT
+*/
+
 const tbody=document.querySelector("#tbody");
 const url="http://localhost:8000/api/shipments";
 var shipmentList=[];
