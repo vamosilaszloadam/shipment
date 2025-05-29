@@ -1,0 +1,114 @@
+@media screen and (max-width: 1130px){
+    .miniCreatedAt, .miniUpdatedAt{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1110px){
+    .miniCreatedAt, .miniUpdatedAt{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .miniCreatedAt, .miniUpdatedAt{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1048px){
+    .miniCreatedAt, .miniUpdatedAt{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    .miniCreatedAt, .miniUpdatedAt{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 998px){
+    .miniCreatedAt, .miniUpdatedAt{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    table, thead, tbody, tr, th, td{
+        display: block;
+    }
+    thead tr{
+        display: none;
+    }
+    .miniId::before{ content: "Id "; }
+    .miniShipmentId::before{ content: "Sz. Id "; }
+    .miniSentDate::before{ content: "Küldés "; }
+    .miniEndDate::before{ content: "Érkezés "; }
+    .miniAddressee::before{ content: "Címzett "; }
+    .miniTargetCity::before{ content: "Célváros "; }
+    .miniCreatedAt::before{ content: "Létrehozva "; }
+    .miniUpdatedAt::before{ content: "Módosítva "; }
+    .mini::before{
+        font-weight: bold;
+        display: inline-block;
+        width: 100px;
+    }
+    .miniRow{
+        display: block;
+        margin-bottom: 20px;
+        border: 1px solid black;
+    }
+    .miniCreatedAt, .miniUpdatedAt{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 343px){
+    .mini{
+        font-size: 14px;
+    }
+    .btn{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 304px){
+    .miniCreatedAt, .miniUpdatedAt{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 293px){
+    .miniCreatedAt, .miniUpdatedAt{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 259px){
+    .miniCreatedAt, .miniUpdatedAt{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 236px){
+    .mini{
+        font-size: 7.9px;
+    }
+}
+
+@media screen and (max-width: 234px){
+    .miniCreatedAt, .miniUpdatedAt{
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 224px){
+    .miniCreatedAt, .miniUpdatedAt{
+        font-size: 6.5px;
+    }
+}
+
+.container, .container-fluid{
+    min-width: 220px;
+}

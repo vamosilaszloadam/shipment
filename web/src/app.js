@@ -16,15 +16,15 @@ function renderTbody(){
     let rows="";
     for(let shipment of shipmentList){
         rows+=`
-            <tr>
-                <td>${shipment.id}</td>
-                <td>${shipment.shipmentId}</td>
-                <td>${shipment.sentDate}</td>
-                <td>${shipment.endDate}</td>
-                <td>${shipment.addressee}</td>
-                <td>${shipment.targetCity}</td>
-                <td>${shipment.createdAt}</td>
-                <td>${shipment.updatedAt}</td>
+            <tr class="miniRow">
+                <td class="mini miniId">${shipment.id}</td>
+                <td class="mini miniShipmentId">${shipment.shipmentId}</td>
+                <td class="mini miniSentDate">${shipment.sentDate}</td>
+                <td class="mini miniEndDate">${shipment.endDate}</td>
+                <td class="mini miniAddressee">${shipment.addressee}</td>
+                <td class="mini miniTargetCity">${shipment.targetCity}</td>
+                <td class="mini miniCreatedAt">${shipment.createdAt}</td>
+                <td class="mini miniUpdatedAt">${shipment.updatedAt}</td>
             </tr>
         `;
         console.log(shipment);
